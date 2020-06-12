@@ -32,7 +32,7 @@ class MainController extends Controller
                 }
             }
 
-            $isMax = false;
+            $isMax = $isMax ? false : true;
         }
 
         foreach ($groups as $key => $group) {
